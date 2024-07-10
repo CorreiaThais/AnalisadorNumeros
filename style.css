@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    padding: 20px 0;
+    text-align: center;
+}
+
+body{
+    background: rgb(97, 113, 168);
+    font: normal 15px arial;
+    color: white;
+}
+
+section{
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+}
+
+select#flista{
+    width: 150px;
+}
+
+input[type="button"]{
+    padding: 3px 10px;
+    background: rgb(97, 113, 168);
+    color: white;
+    border: 0;
+}
+
+input[type="button"]:hover{
+    background: rgb(75, 90, 141);
+    cursor: pointer;
+}
+
+input[type="button"]#btnFin{
+    margin: 7px 0;
+}
+div#res p{
+    padding: 7px 0;
+}
+
+footer{
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    font-style: italic;
+} 
